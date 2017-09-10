@@ -1,4 +1,4 @@
-# Player_Mangement_System
+# Game_Mangement_System
 1. User Registration. The registration asks for their user name, character name, email, and password. Registrations is unique by character name and email.
 
 2. User Profile. The profile show their avatar (default avatar if they don't add one, or delete their current one), character name, rank, and division.User can edit their own avatar (or delete it), user name, character name, email, and password. Anyone viewing the profile cannot edit them, unless they are of a specific rank and division.
