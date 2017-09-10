@@ -1,0 +1,4 @@
+[06-Sep-2017 02:38:22 America/Los_Angeles] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techjahidbdcom/public_html/admin/catlist.php:1) in /home/techjahidbdcom/public_html/lib/Session.php on line 9
+[06-Sep-2017 02:38:29 America/Los_Angeles] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techjahidbdcom/public_html/admin/catlist.php:1) in /home/techjahidbdcom/public_html/lib/Session.php on line 9
+[06-Sep-2017 02:41:14 America/Los_Angeles] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techjahidbdcom/public_html/admin/addcat.php:1) in /home/techjahidbdcom/public_html/lib/Session.php on line 9
+[06-Sep-2017 02:47:21 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/techjahidbdcom/public_html/admin/login.php on line 200

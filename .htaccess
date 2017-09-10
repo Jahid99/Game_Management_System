@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %[REQUEST_FILENAME] !-f
+
+RewriteRule ^([^\.]+)$ $1.html [NC]
+
+RewriteRule category/(.*)/\.html posts.php?category=$1
+
+RewriteRule category/(.*)\.html posts.php?category=$1
+
+RewriteRule postsbydate/(.*)/\.html filter_by_date.php?date=$1
+
+RewriteRule postsbydate/(.*)\.html filter_by_date.php?date=$1
+
+RewriteRule (.*)/\.html post.php?slug=$1
+
+RewriteRule (.*)\.html post.php?slug=$1
+
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)

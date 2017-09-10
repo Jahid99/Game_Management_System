@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %[REQUEST_FILENAME] !-f
+
+RewriteRule ^([^\.]+)$ $1.html [NC]
+
+RewriteRule (.*)/\.html post.php?slug=$1
+
+RewriteRule (.*)\.html post.php?slug=$1
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
