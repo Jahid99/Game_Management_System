@@ -14,3 +14,5 @@
 3D. User A is Rank 5 of Division 9. User B is Rank 1 of Division 10. User B can demote User A to any Rank of any Division. User B cannot promote User A since Division 9 is only 1 less Division and Division 10 would be the same.
 
 4. Simple Forum. A simple "add post" and "reply". However,Admin has the option to be able to set categories and what Ranks/Divisions can access it to post or reply in, but anyone can view them.
+
+<p align="center"><img src="http://techjahid.com/img/game1_lightbox.jpg"></p>
