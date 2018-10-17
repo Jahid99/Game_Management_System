@@ -15,4 +15,4 @@
 
 4. Simple Forum. A simple "add post" and "reply". However,Admin has the option to be able to set categories and what Ranks/Divisions can access it to post or reply in, but anyone can view them.
 
-<p align="center"><img src="http://techjahid.com/img/game1_lightbox.jpg"></p>
+<p align="center"><img src="http://techjahid.com/img/PHP7_lightbox.jpg"></p>
